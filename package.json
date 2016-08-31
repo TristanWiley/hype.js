@@ -1,0 +1,23 @@
+{
+  "name": "hype.js",
+  "version": "0.1.0",
+  "description": "jQuery plugin to hype up your website",
+  "main": "hypemeup.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arthelon/HypeMeUp.js.git"
+  },
+  "keywords": [
+    "hype",
+    "jQuery"
+  ],
+  "author": "Daniel Hsing <hsing.daniel@gmail.com> (http://arthelon.github.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Arthelon/HypeMeUp.js/issues"
+  },
+  "homepage": "https://github.com/Arthelon/HypeMeUp.js#readme"
+}

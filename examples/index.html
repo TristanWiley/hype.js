@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>hypemeup.js test</title>
+</head>
+<body>
+	<div id="container">
+		<h1>test</h1>
+		<p>whooooo</p>
+		<h1>test</h1>
+		<h1>test</h1>
+		<h1>test</h1>
+	</div>
+	<button>Hype me up!</button>
+	<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+	<script src="../hypemeup.js"></script>
+	<script type="text/javascript">
+		$("button").click(function() {
+			var handle = $("#container").hype({
+				rotate: -50,
+				slide: false
+			})
+
+			setTimeout(handle.stopTheHype, 2000)
+		})
+	</script>
+</body>
+</html>
